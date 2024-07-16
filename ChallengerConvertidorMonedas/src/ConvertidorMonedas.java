@@ -25,8 +25,8 @@ public class ConvertidorMonedas {
                 2) Peso Mexicano --> Dólar
                 3) Dólar --> Euro
                 4) Euro --> Dólar
-                5) Dólar --> Real brasileño
-                6) Real brasileño --> Dólar  
+                5) Dólar --> Rublo Ruso
+                6) Rublo Ruso --> Dólar  
                 
                 7) Salir 
                 """;
@@ -65,10 +65,10 @@ public class ConvertidorMonedas {
                         convertirMonedas("EUR", "USD", valor);
                         break;
                     case 5:
-                        convertirMonedas("USD", "BRL", valor);
+                        convertirMonedas("USD", "RUB", valor);
                         break;
                     case 6:
-                        convertirMonedas("BRL", "USD", valor);
+                        convertirMonedas("RUB", "USD", valor);
                         break;
                     default:
                         System.out.println("Opción No valida!!");
